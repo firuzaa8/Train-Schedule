@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src=assets/javascript/game.js> </script> 
+
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-database.js"></script>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <title>Local Train Schedule</title>
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container" id="heading0">
+            <h1 class="display-4">Local Train Schedule</h1>
+            <h2 class="dislpay-3">Be prepared. Skip the town.</h2>
+
+        </div>
+    </div>
+    <div class="container" id="main">
+
+        <div class="row" id="heading1">
+            <div class="col-sm-12">Current Train Schedule</div>
+        </div>
+        <div class="row" id="detail1">
+            <div class="col-sm">Train Name</div>
+            <div class="col-sm">Destination</div>
+            <div class="col-sm">Frequency (min)</div>
+            <div class="col-sm">Next Arrival</div>
+            <div class="col-sm">Minutes Away</div>
+        </div>
+
+        <div class="row" id="detail2">
+            <div class="col-sm" id="trainResult"></div>
+            <div class="col-sm" id="destResult"></div>
+            <div class="col-sm" id="freqResult"></div>
+            <div class="col-sm" id="nextArrivResult"></div>
+            <div class="col-sm" id="minAwayResult"></div>
+        </div>
+    </div>
+    <form>
+        <div class="header" id="heading2">Add Train</div>
+        <div class="form-group">
+            <label for="InputText">Train Name</label>
+            <input type="data" class="form-control" id="InputTextName" placeholder="Martlet Express">
+            <label for="InputText">Destination</label>
+            <input type="data" class="form-control" id="InputTextDest" placeholder="New Orleans">
+            <label for="InputText">First Train Time (HH:mm - military time)</label>
+            <input type="data" class="form-control" id="InputTextTime" placeholder="13:15">
+            <label for="InputText">Frequency (min)</label>
+            <input type="data" class="form-control" id="InputTextFreq" placeholder="10">
+            <button type="submit" class="btn btn-primary" id="add-user">Submit</button></div>
+    </form>
+</body>
+
+</html>

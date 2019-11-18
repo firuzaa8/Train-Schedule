@@ -1,0 +1,88 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+}
+.jumbotron {
+    background-color: #1E5A09;
+    color: white;
+    font-family: Impact, Charcoal, sans-serif;
+    text-shadow: 1px 1px 2px red, 0 0 1em GREEN, 0 0 0.2em black;
+    text-align: center;
+    margin-left:390px;
+    margin-right: 390px;
+    
+}
+#main {
+    border: black solid;
+    background-color: #E7F4E3;
+}
+#heading1 {
+    border-bottom: black solid;
+    font-family: American Typewriter, serif;
+    font-style: oblique;
+    font-stretch: expanded;
+    text-align: center;
+    text-shadow: 2px 4px 5px;
+    color: white;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom:15px;
+    background-color:gray;
+}
+    
+#detail1 {
+    font-family: American Typewriter, serif; 
+    padding-top: 15px;
+    padding-bottom:15px;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+#detail2 {
+    font-family: American Typewriter, serif; 
+    padding-top: 15px;
+    padding-bottom:15px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.col-sm {
+    border-bottom: solid black;
+}
+#heading2 {
+    border: black solid;
+    font-family: American Typewriter, serif;
+    font-stretch: expanded;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    background-color:gray;
+    margin-top: 15px;
+}
+.form-group {
+    background-color: #E7F4E3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+   
+    border-left: black solid;
+    border-right: black solid;
+    border-bottom: black solid;
+}
+form {
+    margin-left:390px;
+    margin-right: 390px;
+}
+#add-user {
+    font-family: American Typewriter, serif;
+    font-stretch: expanded;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    background-color:gray;
+    margin-top: 15px; 
+    width: 200px;
+   
+    
+}
