@@ -1,6 +1,6 @@
 body {
     background-image: url("../images/background.jpg");
-    background-size: cover;
+
 }
 .jumbotron {
     background-color: #1E5A09;
@@ -47,7 +47,9 @@ body {
 }
 .col-sm {
     border-bottom: solid black;
+    text-align: center;
 }
+
 #heading2 {
     border: black solid;
     font-family: American Typewriter, serif;
