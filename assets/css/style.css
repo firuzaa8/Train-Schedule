@@ -12,9 +12,10 @@ body {
     margin-right: 390px;
     
 }
-#main {
+#main, #add {
     border: black solid;
     background-color: #E7F4E3;
+    width: 70%;
 }
 #heading1 {
     border-bottom: black solid;
@@ -38,16 +39,12 @@ body {
     font-weight: bolder;
     
 }
-#detail2 {
-    font-family: American Typewriter, serif; 
-    padding-top: 15px;
-    padding-bottom:15px;
-    font-size: 20px;
-    font-weight: bolder;
-}
+
 .col-sm {
     border-bottom: solid black;
+    border-width: thin;
     text-align: center;
+    
 }
 
 #heading2 {
@@ -72,11 +69,7 @@ body {
     border-right: black solid;
     border-bottom: black solid;
 }
-form {
-    margin-left:390px;
-    margin-right: 390px;
-}
-#add-user {
+#add-train {
     font-family: American Typewriter, serif;
     font-stretch: expanded;
     text-align: center;
@@ -85,6 +78,5 @@ form {
     background-color:gray;
     margin-top: 15px; 
     width: 200px;
-   
-    
+
 }

@@ -68,7 +68,7 @@ $(document).ready(function () {
         $("#main").append("<div class='row'>" +
             "<div class='col-sm'> " + sv.trainName + " </div>" +
             "<div class='col-sm'> " + sv.destination + " </div>" +
-            "<div class='col-sm('> " + sv.frequency + " </div>" +
+            "<div class='col-sm'> " + sv.frequency + " </div>" +
             "<div class='col-sm'> " + nextArrivalString + " </div>" +
             "<div class='col-sm'> " + minutesToNextArrival + " </div>" +
 

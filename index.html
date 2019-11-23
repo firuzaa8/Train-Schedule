@@ -37,7 +37,6 @@
         </div>
     </div>
     <div class="container" id="main">
-
         <div class="row" id="heading1">
             <div class="col-sm-12">Current Train Schedule</div>
         </div>
@@ -48,28 +47,22 @@
             <div class="col-sm">Next Arrival</div>
             <div class="col-sm">Minutes Away</div>
         </div>
-
-        <!--<div class="row" id="detail2">
-            <div class="col-sm" id="trainResult"></div>
-            <div class="col-sm" id="destResult"></div>
-            <div class="col-sm" id="freqResult"></div>
-            <div class="col-sm" id="nextArrivResult"></div>
-            <div class="col-sm" id="minAwayResult"></div>
-        </div>-->
     </div>
-    <form>
-        <div class="header" id="heading2">Add Train</div>
-        <div class="form-group">
-            <label for="InputText">Train Name</label>
-            <input type="data" class="form-control" id="InputTextName" placeholder="Martlet Express">
-            <label for="InputText">Destination</label>
-            <input type="data" class="form-control" id="InputTextDest" placeholder="New Orleans">
-            <label for="InputText">First Train Time (HH:mm - military time)</label>
-            <input type="data" class="form-control" id="InputTextTime" placeholder="13:15">
-            <label for="InputText">Frequency (min)</label>
-            <input type="data" class="form-control" id="InputTextFreq" placeholder="10">
-            <button type="submit" class="btn btn-primary" id="add-train">Submit</button></div>
-    </form>
+    <div class="container" id="add">
+        <form>
+            <div class="header" id="heading2">Add Train</div>
+            <div class="form-group">
+                <label for="InputTextName">Train Name</label>
+                <input type="data" class="form-control" id="InputTextName" placeholder="Martlet Express">
+                <label for="InputTextDest">Destination</label>
+                <input type="data" class="form-control" id="InputTextDest" placeholder="New Orleans">
+                <label for="InputTextTime">First Train Time (HH:mm - military time)</label>
+                <input type="data" class="form-control" id="InputTextTime" placeholder="13:15">
+                <label for="InputTextFreq">Frequency (min)</label>
+                <input type="data" class="form-control" id="InputTextFreq" placeholder="10">
+                <button type="submit" class="btn btn-primary" id="add-train">Submit</button></div>
+        </form>
+    </div>
 </body>
 
 </html>
